@@ -17,7 +17,7 @@ int main() {
     printf("\n");
 
     
-    printf("Arraym 2 = ");
+    printf("Array 2 = ");
 
     for(int i=0; i<5; i++){
         printf("%d ",arr2[i]);
