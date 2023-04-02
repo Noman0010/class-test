@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+
+    char s1[50] = {"Bangladesh"};
+    char s2[50] = {"india"};
+    char temp[50];
+
+    strcpy(temp,s1);
+    strcpy(s1,s2);
+    strcpy(s2,temp);
+
+    printf("s1 = %s\n",s1);
+    printf("s2 = %s",s2);
+   
+    
+    return 0;
+}
