@@ -3,7 +3,7 @@
 
 int main() {
    int n;
-   scanf("%lld", &n);
+   scanf("%d", &n);
    int digit = n;
    int temp = n;
    int ans = 0;
